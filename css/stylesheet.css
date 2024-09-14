@@ -1,3 +1,84 @@
+body{
+    margin: 0;   
+     background-color: coral;
+
+}
 img#headshot{
     height: 300px;
+}
+div.insidebody{
+    margin: 10px;
+    overflow: visible;
+}
+div.mainpagebody{
+    background-color: aliceblue;
+}
+ul.navbar{
+    background-color: cadetblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+ul.navbar a{
+    float: left;
+    padding: 10px;
+    color: white;
+}
+
+ul.navbar li:last-child, .float-right{
+    float: right;
+}
+
+h4.float-right {
+    padding-right: 40%;
+}
+
+ul.navbar a:hover{
+    background-color: cyan;
+    color:black;
+
+}
+div{
+    height: 100%;
+    /* overflow: visible; */
+}
+.bodydiv{
+    width: 60%;
+    margin: 0 auto;
+    height: 300px;
+}
+div.insidebody h1{
+    height: 200px;
+}
+.bodydiv:hover{
+    background-color: bisque;
+    color: blueviolet;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    
+}
+.education{
+    background-color: chartreuse;
+    color: darkblue;
+}
+.employment{
+    background-color: darkseagreen;
+    color:blue;
+}
+.projects{
+    background-color: darkcyan;
+    color: whitesmoke;
+}
+
+.bodydiv * {
+    margin: 0;
+}
+
+
+footer {
+    background-color: coral;
+    text-align: center;
 }
