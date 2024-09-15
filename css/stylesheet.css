@@ -43,7 +43,7 @@ ul.navbar li:last-child, .float-right{
 
 p.float-right {
     margin: 0;
-    padding-right: 40%;
+    padding-right: 20px;
 }
 
 ul.navbar a:hover{
@@ -57,23 +57,29 @@ div{
 }
 .bodydiv{
     width: 60%;
+    padding: 10px 10px;
     margin: 0 auto;
-    height: 300px;
+    
+}
+.bodydiv h4,.bodydiv  h3,.bodydiv h2, .bodydiv p{
+   margin: 5px auto; 
+   
 }
 div.insidebody h1{
-    height: 200px;
+    height: 50px;
+    text-align: center;
 }
 .bodydiv:hover{
     background-color: bisque;
-    color: blueviolet;
+    color: black;
     border: 5px;
     border-style: solid;
     border-color: black;
     
 }
 .education{
-    background-color: chartreuse;
-    color: darkblue;
+    background-color: #7ac133;
+    color: rgb(1, 1, 71);
 }
 .employment{
     background-color: darkseagreen;
@@ -84,12 +90,15 @@ div.insidebody h1{
     color: whitesmoke;
 }
 
-.bodydiv * {
+/* .bodydiv * {
     margin: 0;
-}
+} */
 
 
 footer {
     background-color: coral;
     text-align: center;
+}
+footer *{
+    padding: 10px;
 }
