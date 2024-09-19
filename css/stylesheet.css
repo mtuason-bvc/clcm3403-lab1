@@ -15,7 +15,6 @@ div.insidebody{
     overflow: visible;
 }
 div.mainpagebody{
-    height: 350px;
     background-color: aliceblue;
     margin: 0 30px;
 }
@@ -31,6 +30,7 @@ ul.navbar a{
     float: left;
     padding: 10px;
     color: white;
+    text-decoration: none;
 }
 
 ul.navbar li:last-child, .float-right{
